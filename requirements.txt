@@ -1,0 +1,6 @@
+langchain>=0.3.18
+langchain_openai>=1.6.6
+langchain__core>=1.6.5
+langchain_community>=0.3.17
+python-dotenv==1.0.1
+mypy_extensions>=1.1.0
