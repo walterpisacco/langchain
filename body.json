@@ -1,0 +1,530 @@
+[
+  {
+    "channel": "top",
+    "transcript": "qualia seguros, buenas tardes mi nombre es brian con quién tengo el gusto de hablar?",
+    "start_time": 0.4,
+    "end_time": 3.8
+  },
+  {
+    "channel": "top",
+    "transcript": " nicolás antes de continuar con el motivo de tu llamado permitime corroborar lo que sería tu dni, por favor",
+    "start_time": 6.2,
+    "end_time": 11.7
+  },
+  {
+    "channel": "cliente",
+    "transcript": "sí, 40 64",
+    "start_time": 13,
+    "end_time": 16.2
+  },
+  {
+    "channel": "top",
+    "transcript": " sí, 345.",
+    "start_time": 14.4,
+    "end_time": 17.8
+  },
+  {
+    "channel": "cliente",
+    "transcript": " 645",
+    "start_time": 19,
+    "end_time": 20.2
+  },
+  {
+    "channel": "top",
+    "transcript": " 645 005 perfecto lo que sería un número de teléfono",
+    "start_time": 20.4,
+    "end_time": 25.3
+  },
+  {
+    "channel": "cliente",
+    "transcript": " 3424",
+    "start_time": 27.3,
+    "end_time": 28.5
+  },
+  {
+    "channel": "top",
+    "transcript": " sí",
+    "start_time": 27.5,
+    "end_time": 29.2
+  },
+  {
+    "channel": "cliente",
+    "transcript": " 47",
+    "start_time": 30.8,
+    "end_time": 31.7
+  },
+  {
+    "channel": "top",
+    "transcript": " sí",
+    "start_time": 32.1,
+    "end_time": 32.4
+  },
+  {
+    "channel": "cliente",
+    "transcript": "5",
+    "start_time": 33.8,
+    "end_time": 34.8
+  },
+  {
+    "channel": "top",
+    "transcript": " perfecto y ahora coméntame cuál es la gestión que te gustaría hacer.",
+    "start_time": 35.3,
+    "end_time": 38
+  },
+  {
+    "channel": "cliente",
+    "transcript": " eh, solo contraté el seguro del de la del hogar, eh por",
+    "start_time": 39.7,
+    "end_time": 44.6
+  },
+  {
+    "channel": "top",
+    "transcript": " sí",
+    "start_time": 39.8,
+    "end_time": 44.3
+  },
+  {
+    "channel": "top",
+    "transcript": " sí",
+    "start_time": 45.8,
+    "end_time": 46.1
+  },
+  {
+    "channel": "cliente",
+    "transcript": " pero yo al poner la la cómo es la altura casa astral del del domicilio eh me salta otra cuando se lo lo contrato.",
+    "start_time": 48,
+    "end_time": 56.6
+  },
+  {
+    "channel": "top",
+    "transcript": " entendido entonces ahora dame un segundo que verifico si está la póliza y en vez de realizar lo que es la baja vamos a realizar lo que es el cambio de domicilio de riesgo, te parece?",
+    "start_time": 54.4,
+    "end_time": 65.8
+  },
+  {
+    "channel": "cliente",
+    "transcript": " claro, el cambio de altura más que nada.",
+    "start_time": 67.2,
+    "end_time": 69.1
+  },
+  {
+    "channel": "top",
+    "transcript": " claro sí, lo que se haya en lo que se haya equivocado o al sistema lo haya tomado mal lo vamos a modificar, sí.",
+    "start_time": 69.4,
+    "end_time": 78.1
+  },
+  {
+    "channel": "cliente",
+    "transcript": " listo",
+    "start_time": 78.8,
+    "end_time": 80
+  },
+  {
+    "channel": "top",
+    "transcript": "veo acá, que dice pasaje ingenieros 7217 8341 es por ahí.",
+    "start_time": 79.9,
+    "end_time": 89.5
+  },
+  {
+    "channel": "cliente",
+    "transcript": "pues pasaje ingeniero 7217.",
+    "start_time": 90.6,
+    "end_time": 93.9
+  },
+  {
+    "channel": "top",
+    "transcript": " a ver, porque a mí me un segundito, eh?",
+    "start_time": 95.1,
+    "end_time": 98.6
+  },
+  {
+    "channel": "cliente",
+    "transcript": " no",
+    "start_time": 95.9,
+    "end_time": 96.6
+  },
+  {
+    "channel": "cliente",
+    "transcript": " no sé por qué sal.",
+    "start_time": 98.3,
+    "end_time": 99.4
+  },
+  {
+    "channel": "top",
+    "transcript": " okay dame un segundo que corroboro bien a ver si porque a mí me figura número 7217 que es el que vos decís, no?",
+    "start_time": 101.8,
+    "end_time": 109
+  },
+  {
+    "channel": "cliente",
+    "transcript": " sí",
+    "start_time": 110.1,
+    "end_time": 110.4
+  },
+  {
+    "channel": "top",
+    "transcript": " y después me figura el número asegurado 8341, dame un segundo de que corroboro bien, sí.",
+    "start_time": 110.8,
+    "end_time": 115.7
+  },
+  {
+    "channel": "cliente",
+    "transcript": " sale",
+    "start_time": 117.1,
+    "end_time": 117.6
+  },
+  {
+    "channel": "top",
+    "transcript": " no cortés porfa.",
+    "start_time": 117.3,
+    "end_time": 118.3
+  },
+  {
+    "channel": "top",
+    "transcript": " sabías que puedes descargar tu póliza y gestionar tus trámites desde mi qualia, ingresa, a www.qualiaseguros.com.ar/miqualia y resolve todo lo que necesitas rápido y fácil, qualia, un seguro de tu lado.",
+    "start_time": 121.9,
+    "end_time": 137
+  },
+  {
+    "channel": "top",
+    "transcript": " aguarda en línea estamos procesando tu pedido en qualia, te ayudamos a que disfrutes y vivas más tranquilo.",
+    "start_time": 140.4,
+    "end_time": 146.6
+  },
+  {
+    "channel": "top",
+    "transcript": " sabías que con tu seguro sos parte de club qualia, nuestro club de beneficios ingresa a clubb.cueliaseguros.set.ar y encontrra descuentos en gastronomía turismo compras y más qualia, un seguro de tu lado.",
+    "start_time": 151.3,
+    "end_time": 163.6
+  },
+  {
+    "channel": "top",
+    "transcript": "ahorra con club qualia 20% de descuento en combos exclusivos de almacén bebidas limpieza y cuidado personal con tus marcas favoritas dave skip helmans rexona milca, gallo y más ingresa a club.qualiaseguros.se.ar para conseguir tu descuento",
+    "start_time": 169.8,
+    "end_time": 186.1
+  },
+  {
+    "channel": "cliente",
+    "transcript": "dale dale no.",
+    "start_time": 173,
+    "end_time": 174.4
+  },
+  {
+    "channel": "top",
+    "transcript": " viaja con club qualia en contra de cuentos exclusivos en paquetes de turismo ingresando a www.club.qualiaseguros.set.ar",
+    "start_time": 193.8,
+    "end_time": 204.3
+  },
+  {
+    "channel": "top",
+    "transcript": " crucijuegos ya está en clubalia, tenés un 15% de descuento para celebrar tu cumpleaños con diversión sin límites accede a este descuento desde www.club unos segundos más en línea disculpe la demora y ya estoy con usted, sí.",
+    "start_time": 210.1,
+    "end_time": 223.9
+  },
+  {
+    "channel": "top",
+    "transcript": " junto culia seguros.seg.ar",
+    "start_time": 225.6,
+    "end_time": 228.5
+  },
+  {
+    "channel": "top",
+    "transcript": " aguarda en línea estamos procesando tu pedido en qualia, te ayudamos a que disfrutes y vivas más tranquilo.",
+    "start_time": 231.2,
+    "end_time": 237.4
+  },
+  {
+    "channel": "cliente",
+    "transcript": " vale.",
+    "start_time": 239,
+    "end_time": 239.5
+  },
+  {
+    "channel": "top",
+    "transcript": "cuida a tu mascota con la tranquilidad de estar siempre cubierto con nuestro seguro tenés acceso a veterinarios en línea las 24 horas todos los días estés donde estés podés consultar sobre su salud cuidados o comportamiento cuando lo necesites tenemos planes que se adaptan a vos y cobertura en todo el país habla con un representante para saber más o ingresa en www.qualiaseguros.com.ar.",
+    "start_time": 247.2,
+    "end_time": 274
+  },
+  {
+    "channel": "top",
+    "transcript": " nuestros seguro de vida, unos segundos en línea. ya estoy con vos. te da la tranquilidad. que necesitas y algo te pasa tu familia. estará protegida 100 declaraciones de salud. ni trámites complicados tenés cobertura desde el primer día. podés hablar con nuestros representantes para más información o ingresar a www.qualiaseguros.com.ar.",
+    "start_time": 285.4,
+    "end_time": 307
+  },
+  {
+    "channel": "top",
+    "transcript": "tenés tu casa asegurada protege lo que más a más con nuestro seguro de hogar, te cubrimos ante robo o incendio, aseguramos tus electrodomésticos y te asistimos en emergencias de cerrajería, plomería gas y mucho más además podés, reparar o revisar tus estufas y equipos de aire sin cargo adicional conversa con nuestros representantes para unos segundos más y ya estoy con vos disculpa la demora, pero ya estoy finalizando todo para que te quede bien, sí.",
+    "start_time": 308.5,
+    "end_time": 335
+  },
+  {
+    "channel": "top",
+    "transcript": " gracias por tu amabilidad esperamos unos segundos más más información o ingresa a www.cualioseguros.com.ar.",
+    "start_time": 336.2,
+    "end_time": 345.4
+  },
+  {
+    "channel": "cliente",
+    "transcript": "dale dale",
+    "start_time": 336.7,
+    "end_time": 337.7
+  },
+  {
+    "channel": "top",
+    "transcript": " protege tu mochila o bolso hoy mismo contratá nuestro seguro y movete con tranquilidad por el país, si sufrís un robo, te ayudamos con el traslado hasta donde lo necesites y cubrimos gastos de reposición de documentos tarjetas y llaves habla con nuestros representantes para conocer más o ingresa en www.qualiaseguros.com.ar aguarda en línea estamos procesando tu pedido en qualia, te ayudamos a que disfrutes y vivas más tranquilo.",
+    "start_time": 347.6,
+    "end_time": 376.1
+  },
+  {
+    "channel": "top",
+    "transcript": "sabías que podés descargar tu póliza y gestionar tus trámites desde mi qu gracias por tu tiempo en línea te puedo hacer una consulta cuando vos ves que la dirección está errónea, te aparece en la primer página de la póliza o en cuál página te está figurando?",
+    "start_time": 380.8,
+    "end_time": 398.3
+  },
+  {
+    "channel": "cliente",
+    "transcript": "sí",
+    "start_time": 392.7,
+    "end_time": 393
+  },
+  {
+    "channel": "top",
+    "transcript": " dale por favor",
+    "start_time": 401.2,
+    "end_time": 402
+  },
+  {
+    "channel": "top",
+    "transcript": " sí, sin problema.",
+    "start_time": 403.9,
+    "end_time": 404.9
+  },
+  {
+    "channel": "cliente",
+    "transcript": " pasaje dirección asegurada 8341",
+    "start_time": 418.4,
+    "end_time": 425.3
+  },
+  {
+    "channel": "top",
+    "transcript": " eso te figura en la primera página o en la tercera de casualidad?",
+    "start_time": 424.8,
+    "end_time": 428.5
+  },
+  {
+    "channel": "top",
+    "transcript": " eh, dónde estás visualizando desde home banking?",
+    "start_time": 431.6,
+    "end_time": 435.5
+  },
+  {
+    "channel": "top",
+    "transcript": " okay te pido unos segundos en línea y ya estoy con vos, sí.",
+    "start_time": 437.2,
+    "end_time": 440.2
+  },
+  {
+    "channel": "top",
+    "transcript": " ya ingresa a www.aliasegurus.com.ar/miqualia y resolve todo lo que necesitas rápido y fácil, qualia, un seguro de tu lado.",
+    "start_time": 441.4,
+    "end_time": 452.7
+  },
+  {
+    "channel": "top",
+    "transcript": "aguarda en línea estamos procesando tu pedido en qualia, te ayudamos a que disfrutes y vivas más tranquilo.",
+    "start_time": 455.9,
+    "end_time": 462.4
+  },
+  {
+    "channel": "top",
+    "transcript": " sabías que con tu seguro sos parte de club qualia, nuestro club de beneficios ingresa a club.qualiaseguros.set.ar y encontrá descuentos en gastronomía turismo compras y más qualia, un seguro de tu lado.",
+    "start_time": 466.8,
+    "end_time": 479.2
+  },
+  {
+    "channel": "top",
+    "transcript": " ahorra con club qualia 20% de descuento en combos exclusivos de almacén bebidas limpieza y cuidado personal con tus marcas favoritas, mira ahí estoy visualizando todo y vos lo diste alta el día de hoy vos ya modificaste el domicilio, no?",
+    "start_time": 485.4,
+    "end_time": 499.4
+  },
+  {
+    "channel": "cliente",
+    "transcript": "sí sí, o sea a mí me salta para modificar póliza cuando yo pongo publicación asegurada me salta pasas ingeniero el número 8341. yo le pongo 7217 lo guardo y me salta el que guardo bien, pero cuando lo vuelvo a mirar de nuevo dice para 6 ingenieros.",
+    "start_time": 502.7,
+    "end_time": 524.4
+  },
+  {
+    "channel": "top",
+    "transcript": " sí",
+    "start_time": 504.3,
+    "end_time": 504.6
+  },
+  {
+    "channel": "top",
+    "transcript": "sí",
+    "start_time": 506,
+    "end_time": 509.2
+  },
+  {
+    "channel": "top",
+    "transcript": " claro igual quédate tranquilo, que eso tiene un tiempito de impacto, sí igual vos, eh? en la próxima emisión de póliza te vas a fijar en la tercer página igual. yo te voy a dejar asentado nuestro número de grabación de llamado en el cual, yo como asesor comercial brian turnes, te doy la tranquilidad de que el domicilio asegurado tuyo es un segundo pasaje ingenieros a la altura de 7217, sí.",
+    "start_time": 520.3,
+    "end_time": 547
+  },
+  {
+    "channel": "top",
+    "transcript": " en este caso no te hagas problema de ya en los próximos días debería aparecerte la modificación, sí.",
+    "start_time": 548.3,
+    "end_time": 554.8
+  },
+  {
+    "channel": "cliente",
+    "transcript": "sí, sí sí.",
+    "start_time": 549.6,
+    "end_time": 551.8
+  },
+  {
+    "channel": "top",
+    "transcript": " pero acá desde mi sistema sí me figura bien lo que es tu dirección.",
+    "start_time": 556.1,
+    "end_time": 560
+  },
+  {
+    "channel": "cliente",
+    "transcript": " ah bien bien bien sí más que nada.",
+    "start_time": 557.3,
+    "end_time": 559.6
+  },
+  {
+    "channel": "cliente",
+    "transcript": " bien, bien, sí eso más que nada para quedarme tranquilo porque me faltaba pasar ingeniero 8341.",
+    "start_time": 562.6,
+    "end_time": 567.7
+  },
+  {
+    "channel": "top",
+    "transcript": " no, el 8341 refiere al número de asegurado que sos no a la altura de tu casa.",
+    "start_time": 566.8,
+    "end_time": 573.5
+  },
+  {
+    "channel": "cliente",
+    "transcript": " bien, bien, bien, bien.",
+    "start_time": 576,
+    "end_time": 577.6
+  },
+  {
+    "channel": "top",
+    "transcript": " nuevamente te lo dejo sentado igual en el audio para darte tranquilidad el domicilio asegurado es pasaje ingenieros 7217, sí.",
+    "start_time": 576.2,
+    "end_time": 584.2
+  },
+  {
+    "channel": "cliente",
+    "transcript": "entonces",
+    "start_time": 586.6,
+    "end_time": 588.7
+  },
+  {
+    "channel": "top",
+    "transcript": "es no te dejo el número de grabación del llamado en el cual se clarifican de que yo te estoy diciendo de que el domicilio asegurado es el 721, sí.",
+    "start_time": 595.3,
+    "end_time": 604.2
+  },
+  {
+    "channel": "cliente",
+    "transcript": " bien.",
+    "start_time": 597.8,
+    "end_time": 598.4
+  },
+  {
+    "channel": "top",
+    "transcript": " anota 2 7 2",
+    "start_time": 605.7,
+    "end_time": 608.7
+  },
+  {
+    "channel": "cliente",
+    "transcript": " sí el número sí.",
+    "start_time": 606.5,
+    "end_time": 609.5
+  },
+  {
+    "channel": "top",
+    "transcript": " dos 59",
+    "start_time": 610.6,
+    "end_time": 613.7
+  },
+  {
+    "channel": "cliente",
+    "transcript": " 72 sí.",
+    "start_time": 611.5,
+    "end_time": 612.4
+  },
+  {
+    "channel": "top",
+    "transcript": " 1",
+    "start_time": 616.3,
+    "end_time": 616.6
+  },
+  {
+    "channel": "cliente",
+    "transcript": " sí",
+    "start_time": 617.2,
+    "end_time": 617.5
+  },
+  {
+    "channel": "top",
+    "transcript": " perfecto, brian turnes, brian turnes.",
+    "start_time": 619.9,
+    "end_time": 624.6
+  },
+  {
+    "channel": "cliente",
+    "transcript": " bien, y me quité operador.",
+    "start_time": 620.4,
+    "end_time": 623.1
+  },
+  {
+    "channel": "top",
+    "transcript": " y ahora a modo de repaso continúas con el plan de 35000 pesos del seguro de hogar, sí.",
+    "start_time": 627.7,
+    "end_time": 634.3
+  },
+  {
+    "channel": "cliente",
+    "transcript": " muchísimas gracias",
+    "start_time": 628,
+    "end_time": 628.9
+  },
+  {
+    "channel": "top",
+    "transcript": " perfecto, ahora sin nada más que decirte te digo una pequeña encuesta es un ratito que realizarla créeme que me ayudas mucho, sí.",
+    "start_time": 636.1,
+    "end_time": 642.5
+  },
+  {
+    "channel": "cliente",
+    "transcript": " sí exactamente.",
+    "start_time": 636.9,
+    "end_time": 638.3
+  },
+  {
+    "channel": "top",
+    "transcript": " perfecto hermosa tarde para usted chao chao",
+    "start_time": 644,
+    "end_time": 646.5
+  },
+  {
+    "channel": "cliente",
+    "transcript": " dale dale",
+    "start_time": 644.6,
+    "end_time": 645.4
+  },
+  {
+    "channel": "cliente",
+    "transcript": " igualmente hasta luego",
+    "start_time": 648.7,
+    "end_time": 649.6
+  }
+]

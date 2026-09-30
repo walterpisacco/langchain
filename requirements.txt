@@ -4,3 +4,4 @@ langchain__core>=1.6.5
 langchain_community>=0.3.17
 python-dotenv==1.0.1
 mypy_extensions>=1.1.0
+laya>=0.3.22
