@@ -1,20 +1,13 @@
-import json
 import time
-from pathlib import Path
 
-import laya  # Importamos el módulo raíz para configurar los checkpoints
+import laya
 from laya import Router
 
-# 2. Inicializar el Router (ahora sin argumentos inválidos)
 router = Router()
-
-# 2. Cargar explícitamente el checkpoint multilingüe oficial de Convai Innovations
-# (Esto descargará mmBERT-base de 322M optimizado para más de 100 idiomas)
-multilingual_agent = laya.load("convaiinnovations/laya-multilingual")
-
-# 3. Adjuntar el agente al router bajo la etiqueta "multilingual"
-# Esto fuerza a que todo el flujo de inferencia corra sobre este checkpoint
-router.attach("multilingual", multilingual_agent)
+# Checkpoint mmBERT (100+ idiomas). El texto va en español; las preguntas, en inglés:
+# el encoder multilingüe lee el turno, pero el cabezal de decisión se entrenó con
+# instrucciones en inglés. En español las mismas preguntas casi no detectan el nombre.
+router.attach("multilingual", laya.load("convaiinnovations/laya-multilingual"))
 
 body = "Mi nombre es walter y lo estoy llamando de Swiss Medical Seguros a través de un convenio con Banco Patagonia."
 
@@ -23,36 +16,33 @@ state = {
     "body": body,
 }
 
-# Mantener la escala 0-3 óptima para Laya
+# Una rúbrica 0-3 no sirve aquí. Laya puntúa cada nivel por parecido con el texto,
+# y el nivel 0 ("No dice su nombre, ni Swiss Medical, ni el convenio") repite las
+# mismas palabras que el turno. En este ejemplo ese nivel se lleva ~43% y el nivel
+# 1 otro ~42%, así que el score esperado cae a ~0.8 aunque la presentación esté completa.
+# Tres preguntas sí/no, sin repetir la entidad en la opción negativa, sí se separan.
 questions = {
-    "presentation_score": {
-        "type": "score",
-        "instructions": "Evalúa el nivel de completitud de la presentación del agente en una escala del 0 al 3.",
-        "criteria": [
-            "No dice su nombre, ni que llama de Swiss Medical, ni menciona el convenio.", # Índice 0
-            "Solo menciona un elemento (ej. solo dice su nombre, o solo la empresa).",      # Índice 1
-            "Menciona dos de los tres elementos requeridos en la llamada.",                  # Índice 2
-            "Cumple perfectamente: dice su nombre, que es de Swiss Medical y el convenio."  # Índice 3
-        ]
-    }
+    "nombre": {
+        "type": "noul",
+        "instructions": "Does the speaker state their own first name in `body`?",
+    },
+    "empresa": {
+        "type": "noul",
+        "instructions": "Does the speaker say they are calling from Swiss Medical Seguros in `body`?",
+    },
+    "convenio": {
+        "type": "noul",
+        "instructions": "Does the speaker mention a convenio or agreement with Banco Patagonia in `body`?",
+    },
 }
 
 inicio = time.perf_counter()
-# IMPORTANTE: Cambiado a .predict() para latencia mínima en tiempo real (<35ms)
-result = router.predict(state, questions)
+result = router.predict(state, questions, lang="es")
 elapsed = time.perf_counter() - inicio
 
-# Corregido: Usar la clave exacta de la pregunta
-answer = result["answers"]["presentation_score"]
+partes = {qid: result["answers"][qid]["noul"] for qid in questions}
+score_100 = 100.0 * sum(partes.values()) / len(partes)
 
-# Extraer el score continuo calculado por Laya (un float entre 0.0 y 3.0)
-score_laya = answer["score"] 
-
-# 2. Normalizar matemáticamente de la escala 0-3 a la escala 0-100
-# Fórmula: (Score Actual / Score Máximo) * 100
-score_100 = (score_laya / 3.0) * 100
-
-# Lógica del semáforo
 if score_100 >= 85:
     semaforo = "🟢 VERDE"
 elif score_100 >= 45:
@@ -60,9 +50,12 @@ elif score_100 >= 45:
 else:
     semaforo = "🔴 ROJO"
 
-print(f"[{semaforo}] - Score Laya original (0-3): {score_laya:.2f}")
-print(f"Score Normalizado (0-100): {score_100:.1f}%")
-print(f"Tiempo de respuesta total: {elapsed*1000:.1f} ms")
+routing = result.get("routing") or {}
+print(f"[{semaforo}] - Score (0-100): {score_100:.1f}%")
+for qid, valor in partes.items():
+    print(f"  {qid}: {valor:.2f}")
+print(f"Modelo: {routing.get('model')} | idioma: es")
+print(f"Tiempo de respuesta total: {elapsed * 1000:.1f} ms")
 
 usage = result.get("usage") or {}
 if usage:
